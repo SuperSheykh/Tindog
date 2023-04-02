@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TYPOGRAPHY */
+h2, h3 {
+    margin: 0;
+}
+h2 {
+    color: #F8F8F8;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    color: #B7B7B7;
+    font-size: 1.5rem;
+}
+
+/* ICONOGRAPHY */
+.icon {
+    width: 32px;
+}
+.logo {
+    width: 84px;
+}
+.btn-pic {
+    width: 40px;
+}
+#modal-pic{
+    width: 234px;
+    transform: rotate(-30deg);
+}
+
+/* LAYOUT */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25em;
+}
+
+#profile-area {
+    padding: 0 0.2em;
+}
+.main-pic-ctn {
+    background-color: #868686;
+    background-size: cover;
+    padding: 38.25rem 0.75rem 1rem;
+    border-radius: 15px;
+}
+#btn-area{
+    position: static;
+}
+
+
+.btn-ctn {
+    padding: 1.5em 0;
+    text-align: center;
+}
+button,
+.btn {
+    background-color: #FFFFFF;
+    padding: 1.75rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 10px 20px #E9E9EA;
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+}
+.nope-btn:hover,
+.disliked {
+    background-color: #FFE7EF;
+    box-shadow: 0 10px 20px #EDD9DF;
+}
+.like-btn:hover,
+.liked {
+    background-color: #DBFFF4;
+    box-shadow: 0 10px 20px #CCF1E6;
+}
+
+/* MODAL CONFIGURATION */
+#modal-pic-ctn {
+    position: absolute;
+    left: 1em;
+    top: 3em
+}
